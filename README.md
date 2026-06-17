@@ -122,9 +122,7 @@ App.jsx — React Router with PrivateRoute protecting /, /checkin, /journal, /cr
 - Full auth flow: register, login, JWT, localStorage, protected routes
 - Onboarding: full 5 step flow end to end
 - Home screen: styled, working, navigation to check-in and crisis
-- Check-in flow: 3 questions, auto-advance, Claude reflections, journal textarea, Save to journal button (field names still unverified, see Known issues)
-- All four database tables created and populated
-- Crisis.jsx written (untested)
+
 
 ## Build priorities (revised)
 
