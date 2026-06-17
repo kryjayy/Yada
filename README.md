@@ -1,24 +1,12 @@
 # Yada — Project Brief v2
 
-**I'm building an app called Yada. Here is everything you need to know before we start.**
-
-## What changed from v1
-
-1. Crisis detection is now a defined flow: Claude returns structured JSON with a crisis flag, the backend sets `crisisMode`, the frontend responds differently. Previously the boolean existed but nothing set it.
-2. The Claude system prompt was rewritten: mandated stock phrases removed, specificity required, crisis rule added, JSON output contract added.
-3. Pattern detection logic changed from "14 consecutive low check-ins" to "majority low over a rolling 14-day window."
-4. Rate limiting added: one check-in per user per 4 hours.
-5. Privacy: delete-account endpoint specified, README privacy section required.
-6. JWT secret moved to an environment variable (rotated, not written in this document).
-7. Crisis.jsx is built (3 internal screens, zero logging) and needs testing.
-
 ## What Yada is
 
 Yada is a mobile-first mental health and self-awareness app for young people aged 18-22. The name comes from the Hebrew word for intimate knowing. The app helps users understand what they are feeling through psychology-backed daily check-ins, AI-generated emotional reflections, and an optional progressive faith layer. It is a university portfolio project demonstrating full stack development, product thinking, and psychological depth.
 
 The primary user is Ayo: 19, university student in London, no therapy access, friends who dismiss his feelings, social anxiety, emotional overwhelm. The app meets him where he is without preaching at him.
 
-The app has a tiered faith model (surface/middle/deep) but the current prototype focuses on surface tier only: no religious language, CBT-backed reflections. Deeper tiers are deferred until the prototype is validated.
+The app is currently a prototype (work in progress) 
 
 ## Tech stack
 
